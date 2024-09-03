@@ -5,7 +5,7 @@ from PIL import Image
 from tensorflow.keras.models import load_model
 
 
-model = load_model('mobilenet_model.h5')
+model = load_model('mobileNet_model.h5')
 
 
 class_names = ['CaS', 'CoS', 'Gum', 'MC', 'OC', 'OLP', 'OT']
